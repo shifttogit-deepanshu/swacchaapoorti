@@ -1,0 +1,483 @@
+:root{
+	--bg-color : rgba(78, 205, 196, 1);
+}
+body{
+	font-family:'Ubuntu', sans-serif;
+}
+
+.navcontainer{
+	background-color: var(--bg-color);
+	width:100%;
+	position:sticky;
+	top:0;
+	z-index:1000;
+}
+
+.navbar{
+	margin:auto;
+	width:60%;
+	z-index:1000;
+
+}
+
+.navlist{
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	width:100%;
+}
+.navicons{
+	color:white;
+	text-align: center;
+	font-size:2vw;
+}
+.icontext{
+	color:white;
+	text-align:center;
+	font-family:'Ubuntu', sans-serif;
+	font-size:100%;
+	font-weight: 700;
+	font-size:1vw;
+}
+.link{width:20%;
+	height:12vh;
+	display:flex;
+	flex-direction:column;
+	justify-content: space-around;
+	align-items: center;
+}
+a:hover{
+	text-decoration: none;
+	color:white;
+}
+a{
+text-decoration: none;
+	color:white;	
+}
+
+.gscontainer{
+	display:flex;
+	height:86vh;
+/*	border:2px solid magenta;*/
+}
+.gsimg{
+width:50%;
+display:flex;
+align-items: center;
+/*border:2px solid magenta;*/
+
+}
+.gstext{
+width:50%;
+/*border:2px solid magenta;*/
+}
+.gspng{
+	width:90%;
+	text-shadow: 2px 2px 100px black;
+/*	border:2px solid magenta;*/
+	margin-top:8vh;
+}
+.gstext{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top:-8vh;
+}
+.gsheader{
+	font-size:3vw;
+	font-family:'Ubuntu', sans-serif;
+	font-weight: 900;
+
+/*	border:2px solid magenta;*/
+}
+.gstitle{
+	font-size:1vw;
+	color:grey;
+}
+.gsbutton{
+	background-color: var(--bg-color);
+	color:white;
+	font-size: 1.5vw; 
+	padding:1vw 2vw 1vw 2vw;
+	margin-top:5vh;
+	border:2px solid white;
+	border-radius:40px;
+
+}
+
+
+.tips{
+	background-color: var(--bg-color);
+	height:1000px;
+}
+.cacontainer{
+	background-color: var(--bg-color);
+	display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.covidalerts {
+	
+  width: 100%;
+  text-align: center;
+  background-color: var(--bg-color);
+  height:50vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.slides{
+	color:black;
+	font-size:2vw;
+	font-family:'Ubuntu', sans-serif;
+}
+.cahead{
+	text-align: center;
+	color:black;
+	font-size:3vw;
+	font-family:'Ubuntu', sans-serif;
+	background-color: var(--bg-color);
+	padding-top:2vh;
+	font-weight: 900;
+}
+.ctcontainer{
+	height:100vh;
+	height:200vh;
+
+}
+.covidtip{
+
+	height:50vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.ct1{
+color:white;
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: column;
+width:40%;
+height:32vh;
+background-color: var(--bg-color); 
+border:2px solid var(--bg-color);
+border-radius: 0px 50px 50px 50px;
+}
+.ct2{
+color:white;
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: column;
+width:40%;
+height:32vh;
+transform:translateY(25vh);
+background-color: rgba(46, 49, 49, 1);
+border-radius: 50px 0px 50px 50px;
+border:2px solid rgba(46, 49, 49, 1);
+}
+.cticons{
+	
+	font-size:4vw;
+	margin-top:2vw;
+}
+.ctext{
+	font-size:1vw;
+	font-family:'Ubuntu', sans-serif;
+	font-weight: 700;
+	margin:4vw;
+}
+
+.cthead{
+	font-size: 4vw;
+	font-family:'Ubuntu', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	margin:4vw;
+
+}
+.hiwcontainer{
+	height:100vh;
+	display:flex;
+	margin-top:20vh;
+
+}
+.hiwimg{
+	height:100%;
+	width:50%;
+}
+.hiwtext{
+	height:80%;
+	background-color: var(--bg-color);
+	width:50%;
+	margin-top: 4vh
+	border:2px solid var(--bg-color);
+	border-radius:20px;
+
+}
+.hiwimage{
+	z-index:100;
+	height:100%;
+	width: 30vw;
+	transform:translateX(-6vw);
+}
+.hiwtext{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.hiwhead{
+color:white;
+font-size: 5vw;
+	font-family:'Ubuntu', sans-serif;
+
+}
+.hiwpara{
+	color:white;
+font-size: 1.3vw;
+	font-family:'Ubuntu', sans-serif;
+	margin:2vw;
+	margin-right:5vw;
+}
+.hiwcontainer2{
+	height:80vh;
+	display:flex;
+	margin-top:20vh;
+
+}
+.hiwcontainer2{
+	margin-top:0px;
+	height:100vh;
+	display:flex;
+
+}
+.hiwimg2{
+	height:100%;
+	width:50%;
+	z-index: 10;
+}
+.hiwtext2{
+	height:70%;
+	width:50%;
+	background-color: rgba(46, 49, 49, 1);
+	z-index:0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	border:2px solid rgba(46, 49, 49, 1);
+	border-radius:20px;
+}
+.hiwhead2{
+color:white;
+font-size: 4vw;
+margin-left:5vw;
+margin-right:2vw;
+	font-family:'Ubuntu', sans-serif;
+text-align: center;
+
+}
+.hiwpara2{
+	color:white;
+font-size: 1vw;
+	font-family:'Ubuntu', sans-serif;
+	margin:2vw;
+	margin-left:5vw;
+	text-align: center;
+	margin-right:2vw;
+}
+.hiwimage2{
+	height:80%;
+	width:50vw;
+	transform: translateX(4vw);
+}
+footer{
+	height:10vw;
+	background-color: var(--bg-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footertxt{
+	color:black;
+	font-size: 2vw;
+	text-align: center;
+	font-family:'Ubuntu', sans-serif;
+	font-weight: 900;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media queries*/
+
+@media only screen and (max-width: 1000px) {
+  .navicons {
+    font-size:3vw;
+  }
+  .icontext{
+  	font-size:2vw;
+  }
+  .navbar{
+	width: 100%;
+}
+.cahead{
+	font-size:6vw;
+}
+.slides{
+	font-size:4vw;
+}
+.cahesd{
+	font-size: 6vw;
+}
+.cticons{
+	font-size:8vw;
+}
+.ctext{
+	font-size:2vw;
+}
+.hiwcontainer{
+	flex-direction: column;
+}
+.hiwtext{
+	width:100%;
+}
+.hiwimg{
+	width:100%;
+	height:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hiwimage{
+	transform:translateX(0);
+
+}
+.hiwcontainer2{
+	flex-direction: column-reverse;
+
+}
+.hiwtext2{
+	width:100%;
+}
+.hiwimg2{
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hiwimage2{
+	transform:translateX(0);
+
+
+}
+/*.hiwimg{
+	height:100%;
+}*/
+.hiwhead{
+	font-size: 7vw;
+}
+.hiwpara{
+	font-size:4vw;
+}
+.hiwhead2{
+	font-size: 7vw;
+}
+.hiwpara2{
+	font-size: 4vw;
+}
+}
+
+@media only screen and (max-width: 480px) {
+  .navicons {
+    font-size:4vw;
+  }
+  .icontext{
+  	font-size:3vw;
+  }
+  .gscontainer{
+  	flex-direction: column;
+  	justify-content: center;
+
+  }
+  .gsimg{
+  	height:50%;
+  	width:100%;
+  }
+  .gstext{
+  	height:50%;
+  	width:100%;
+  }
+  .gsheader{
+  	font-size: 6vw;
+  }
+  .gstitle{
+  	font-size:3vw;
+  }
+  .gsbutton{
+  	font-size: 3vw; 
+	padding:3vw 4vw 3vw 4vw;
+  }
+  .link{
+  	margin:5%;
+  }
+  .cahead{
+	font-size:8vw;
+}
+.slides{
+	font-size:6vw;
+}
+.covidtip{
+	flex-direction:column;
+
+}
+.ct1{
+	width:80%;
+	margin:1vh;
+	margin-left:0vw;
+	align-self: flex-start;
+}
+.ct2{
+	width:80%;
+	transform:translateY(0vh);
+	margin:2vh;
+	margin-right:0vw;
+	align-self: flex-end
+}
+.hiwhead{
+	font-size: 8vw;
+}
+.hiwpara{
+	font-size: 4vw;
+}
+.hiwhead2{
+	font-size: 8vw;
+}
+.hiwpara2{
+	font-size: 4vw;
+}
+}
