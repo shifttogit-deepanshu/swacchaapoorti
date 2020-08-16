@@ -16,11 +16,23 @@ Even during shop visits, people tend to gather at a single shop among others wit
 
 Swacchaapoorti, an application designed to idealize the process of internal lockdown and social distancing.
 It is a browser-based application that collects real-time data from users and shop owners.
+
+
+
 ![](screenshots/2.jpg)
+
+
+
 Users can enter their requirements in our database. 
 
  ![](screenshoots/3.jpg)
+ 
+ 
+ 
 Our application will tell the user the safest, closest, and most fulfilling shop for their requirements.
+
+
+
 
 ![](screenshots/4.jpg)
  
@@ -28,15 +40,27 @@ It will also notify the users of the right time to buy their needs.
 
 This will reduce the shopping time, travel distance, and crowd gathering at stores.
 
+
+
 ![](screenshots/5.jpg)
+
+
 
  
 Besides this, the barter system feature in the application allows the user to enter the products they have in excess. Our application shows the user what nearby users have to offer in return.  
 
+
+
 ![](screenshots/6.jpg)
+
+
 
 This will ease out the process of fulfilling each other's needs without gathering at stores, creating a rational distribution of products, and staying close to your home. 
 
- ![](screenshots/7.jpg)
 
-Eventually, preventing the substantial spreading of the virus.</b>
+
+ ![](screenshots/7.jpg)
+ 
+ 
+
+<b>Eventually, preventing the substantial spreading of the virus.</b>
